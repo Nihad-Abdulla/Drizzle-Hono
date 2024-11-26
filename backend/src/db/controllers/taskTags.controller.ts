@@ -1,5 +1,5 @@
-import { db } from "../../index"; // Ensure correct import of db connection
-import { taskTagsTable, tasksTable } from "../schema"; // Import tasksTable correctly
+import { db } from "../../index"; 
+import { taskTagsTable, tasksTable } from "../schema"; 
 import { eq, and } from 'drizzle-orm';
 
 // Assign a tag to a task

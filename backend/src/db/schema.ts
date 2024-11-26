@@ -20,6 +20,6 @@ export const taskTagsTable = sqliteTable("task_tags", {
   tagId: integer("tag_id").references(() => tagsTable.id),
 }, (table) => {
   return {
-    pk: primaryKey({ columns: [table.taskId, table.tagId] }), // composite primary key
+    pk: primaryKey({ columns: [table.taskId, table.tagId] }), 
   };
 });
