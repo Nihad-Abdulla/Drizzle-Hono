@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                  // Compiles to modern JavaScript
+    "module": "ESNext",                  // Using ESModules (import/export)
+    "moduleResolution": "node",          // Node.js module resolution
+    "esModuleInterop": true,             // Ensures compatibility with CommonJS modules
+    "skipLibCheck": true,                // Skips type checking of declaration files (useful for larger projects)
+    "strict": true,                      // Enables strict type checking options
+    "outDir": "./dist",                  // Output directory for compiled files
+    "rootDir": "./src",                  // Root directory for TypeScript source files
+    "resolveJsonModule": true            // Allows importing JSON modules
+  },
+  "include": ["src/**/*"],                // Includes all TypeScript files in the `src` folder
+  "exclude": ["node_modules"]             // Excludes `node_modules`
+}
