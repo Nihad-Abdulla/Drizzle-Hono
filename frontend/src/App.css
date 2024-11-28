@@ -1,0 +1,19 @@
+/* src/app.css */
+
+/* General Button Styles */
+.btn {
+  @apply bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700;
+}
+
+.btn-danger {
+  @apply bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-700;
+}
+
+/* Input and Textarea Styles */
+.input {
+  @apply border border-gray-300 rounded-md p-2 w-full;
+}
+
+.textarea {
+  @apply border border-gray-300 rounded-md p-2 w-full h-32;
+}
