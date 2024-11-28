@@ -31,3 +31,9 @@ Delete
 DELETE http://localhost:3000/task-tags//:taskId/tag/:tagId
 GET ALL
 GET http://localhost:3000/task-tags//tag/:tagId/tasks
+
+
+Frontend :-
+Used Zustand for state management
+React Query for data fetching
+
